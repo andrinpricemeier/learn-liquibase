@@ -1,0 +1,1 @@
+docker run --rm --name learn-liquibase-postgres -v ./db_data:/var/lib/postgresql/data -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_DB=books-db -p 5432:5432 postgres
